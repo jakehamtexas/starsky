@@ -1,2 +1,3 @@
 import StarredRepo from './StarredRepo';
-export { StarredRepo };
+import Owner from './Owner';
+export { StarredRepo, Owner };

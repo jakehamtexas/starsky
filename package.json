@@ -50,7 +50,9 @@
     "node": ">=8.9"
   },
   "dependencies": {
+    "@types/axios": "^0.14.0",
     "@types/commander": "^2.12.2",
+    "axios": "^0.19.2",
     "commander": "^4.1.1",
     "sha.js": "^2.4.11"
   },

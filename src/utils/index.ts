@@ -1,4 +1,4 @@
-import readFile from './readFile';
-import fileExists from './fileExists';
-import writeFile from './writeFile';
-export { readFile, fileExists, writeFile };
+import repoPost from './repoPost';
+import getFromBufferOrDefault from './getFromBufferOrDefault';
+import mapFromJson from './mapFromJson';
+export { repoPost, getFromBufferOrDefault, mapFromJson };

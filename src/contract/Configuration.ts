@@ -1,3 +1,7 @@
 export default interface Configuration {
-  githubUsername: string;
+  queryUsername: string;
+  credentials: {
+    username: string;
+    password: string;
+  };
 }

@@ -31,7 +31,8 @@
     "version": "standard-version",
     "reset": "git clean -dfx && git reset --hard && npm i",
     "clean": "trash build test",
-    "prepare-release": "run-s reset test cov:check doc:html version doc:publish"
+    "prepare-release": "run-s reset test cov:check doc:html version doc:publish",
+    "debug": "node ./build/main/cli.js"
   },
   "scripts-info": {
     "info": "Display information about the package scripts",
@@ -51,9 +52,21 @@
   },
   "dependencies": {
     "@types/axios": "^0.14.0",
+    "@types/body-parser": "^1.19.0",
     "@types/commander": "^2.12.2",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.3",
+    "@types/openurl": "^1.0.0",
+    "@types/passport": "^1.0.2",
+    "@types/passport-github2": "^1.2.4",
     "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
     "commander": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "openurl": "^1.1.1",
+    "passport": "^0.4.1",
+    "passport-github2": "^0.1.11",
     "sha.js": "^2.4.11"
   },
   "devDependencies": {
